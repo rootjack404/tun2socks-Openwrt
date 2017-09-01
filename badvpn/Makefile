@@ -6,12 +6,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=badvpn
-PKG_VERSION:=1.999.117rc2
+PKG_VERSION:=1.999.130
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=http://badvpn.googlecode.com/files/
-PKG_MD5SUM:=08fd8f719bd05a1124bbdf7c4ea8529f
+PKG_SOURCE:=$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://github.com/ambrop72/badvpn/archive/
+PKG_MD5SUM:=e65d8d298fc82eb9a6c12a9425a97e6d
 
 include $(INCLUDE_DIR)/package.mk
 
