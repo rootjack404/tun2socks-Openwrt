@@ -18,7 +18,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/badvpn
 	SECTION:=net
 	CATEGORY:=Network
-	DEPENDS:=+librt +libpthread +udev +coreutils +coreutils-stdbuf
+	DEPENDS:=+librt +libpthread +libudev +coreutils +coreutils-stdbuf
 	TITLE:=BadVPN
 	SUBMENU:=VPN
 endef
