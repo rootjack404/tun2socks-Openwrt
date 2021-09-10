@@ -15,7 +15,7 @@ cd source
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 
-git clone https://github.com/yazdan/tun2socks-Openwrt
+git clone https://github.com/rootjack404/tun2socks-Openwrt
 cp -rf tun2socks-Openwrt/badvpn package/
 rm -rf tun2socks-Openwrt/
 
